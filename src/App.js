@@ -10,26 +10,26 @@ render(){
   return (
 <div className="container-fluid">
   <div className='row'>
-  <div className='colo-4'>
+    <div className='col-4'>
+      <Day 
+      dayName='Thursday' 
+      dayNumber='8'
+      monthName='July'/>
+    </div>
 
-  <Day 
-  dayName='Thursday' 
-  dayNumber='8'
-  monthName='July'/>
-  </div>
-  <div className='colo-4 bg-success text-white border'>
-  <Day dayName='Friday' 
-  dayNumber='9'
-  monthName='July'
-  />
-  </div>
-  <div className='colo-4  bg-danger text-white'>
-  <Day
-  dayName="Saturday"
-  dayNumber='10'
-  monthName="July"
-   />
-   </div>
+    <div className='col-4 bg-success text-white border' >
+      <Day dayName='Friday' 
+      dayNumber='9'
+      monthName='July'
+      />
+    </div>
+    <div className='col-4  bg-danger text-white'>
+      <Day
+      dayName="Saturday"
+      dayNumber='10'
+      monthName="July"
+      />
+    </div>
   </div>
 </div>
   );
